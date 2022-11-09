@@ -1,0 +1,17 @@
+main {
+  --bg-primary: #fff;
+  --text-primary: #000;
+  --bg-secondary: #0d3b66;
+  --text-secondary: #fff;
+}
+
+main.modo-escuro {
+  --bg-primary: #2b2d42;
+  --text-primary: #ddd;
+  --bg-secondary: #ddd;
+  --text-secondary: #222;
+}
+
+.conteudo {
+  background-color: var(--bg-primary);
+}
